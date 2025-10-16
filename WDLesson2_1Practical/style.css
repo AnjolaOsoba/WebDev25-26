@@ -23,13 +23,13 @@ span {
 
 /* Challenge 4: Change the family of font being used for all paragraphs to "Arial" */
 p {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 /* Challenge 5: Change the family of font being used for all lists to "Comic Sans MS".  
    What element creates a list? --> <ul> and <ol> */
-ul, ol {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+ul {
+  font-family: "Comic Sans MS";
 }
 
 /* Challenge 6: Change the background color of the div to blue, 
