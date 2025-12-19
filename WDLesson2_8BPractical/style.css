@@ -1,2 +1,83 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner */
+#banner {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#banner .title {
+    font-size: 18pt;
+}
+
+#banner .subtitle {
+    font-size: 8pt;
+}
+
+#topnav {
+    background: green;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;  /* Even spacing */
+    align-items: center;
+}
+
+#topnav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 20px;
+}
+
+#topnav a:hover {
+    background: #005f00;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#sidebar {
+    width: 180px; 
+    background: #f5f5f5;
+    padding: 10px;
+    border-right: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+    margin: 8px 0;
+}
+
+
+#main, #sample {
+    flex: 1;               
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px 0;
+}
+
+#main h1, #sample h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+footer {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
