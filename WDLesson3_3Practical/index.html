@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<!-- WD Lesson 3.3: 
-     How do we interact with an element on a web page?  -->
-
-<!-- Resources 
-    https://www.w3schools.com/js/js_htmldom_methods.asp 
-    https://www.w3schools.com/jsref/met_document_getelementbyid.asp
-
-     YouTube Video Lesson
-     https://youtu.be/t2R9hOkM_ZU 
--->
+<!-- WD Lesson 3.3 -->
 <html>
   <head>
     <title>WD Lesson 3.3</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
   </head>
+
   <body>
 
-    <!-- Challenge 4: Add a heading to the <div> below titling the images you have added -->
+    <!-- Challenge 4: Add a heading -->
     <div class="container banner">
-      
+      <h1>Image Gallery</h1>
     </div>
-    
-    <!-- Challenge 1: Add five images each within it's own div like <div><img src="" ></div> to div with a class of gallery below  -->
+
+    <!-- Challenge 1 & 3: Five images, each in its own div, with onmouseover -->
     <div class="container gallery">
-      
+      <div>
+        <img src="https://wallpapers.com/images/hd/funny-random-pictures-1280-x-1818-zkm5hrcp3nwkglhk.jpg"
+             onmouseover="image1()">
+      </div>
+
+      <div>
+        <img src="https://www.boredpanda.com/blog/wp-content/uploads/2025/03/funny-random-rare-pictures_wide-WideImage_16-9-67c946b7c9964.jpg"
+             onmouseover="image2()">
+      </div>
+
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjr2PJJBQyujPgZ5SzTMhiFcHbV0Oerf2owQ&s"
+             onmouseover="image3()">
+      </div>
+
+      <div>
+        <img src="https://puzzlemania-154aa.kxcdn.com/products/2024/puzzle-schmidt-1000-pieces-random-galaxy.webp"
+             onmouseover="image4()">
+      </div>
+
+      <div>
+        <img src="https://photos.lensculture.com/large/5dd2fa6e-fe8d-469f-959b-46299ced511d.jpg"
+             onmouseover="image5()">
+      </div>
     </div>
-    <!-- Challenge 3: For each image in the class gallery above, add onmouseover event that calls the 
-         corresponding function you create in script.js as part of Challenge 2.
-    -->
+
     <div class="container alternate landmark">
       <div id="highlight"></div>
     </div>
+
     <div id="footer" class="container">
       NYC &copy; 2021
     </div>
