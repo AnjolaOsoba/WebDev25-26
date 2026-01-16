@@ -26,6 +26,20 @@
       <!-- Challenge Bonus: Add the above card for the triangle to index.html -->
       <div class="card">
         <!-- Challenge Bonus: Create the necessary UI in order to calculate the area and perimeter of a triangle.  This will require separate buttons for area and perimeter each with their own handler. -->
+<div class="card column">
+  <h3>Triangle Calculator</h3>
+
+  <input type="text" id="triBase" placeholder="Enter base">
+  <input type="text" id="triHeight" placeholder="Enter height">
+  <input type="text" id="triSide1" placeholder="Side 1">
+  <input type="text" id="triSide2" placeholder="Side 2">
+  <input type="text" id="triSide3" placeholder="Side 3">
+
+  <button onclick="triangleArea()">Area</button>
+  <button onclick="trianglePerimeter()">Perimeter</button>
+
+  <p>Result: <span id="triOutput"></span></p>
+</div>
 
         <!-- Go to script.js to complete Challenge Bonus --> 
       </div>
